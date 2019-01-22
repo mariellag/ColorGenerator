@@ -1,0 +1,4 @@
+aqua: #00FFFF
+Lightcyan: #E0FFFF
+Steelblue: #4682B4
+Dodgerblue: #1E90FF

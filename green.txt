@@ -1,0 +1,4 @@
+Chartreuse: #7FFF00
+Lime: #00FF00
+Seagreen: #2E8B57
+Darkolivegreen: #556B2F
