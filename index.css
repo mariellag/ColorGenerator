@@ -1,0 +1,88 @@
+/*
+Name: Mariella Gauvreau
+Date: November 14, 2018
+Section: CSE 154 AB
+This is the index.css page for my portfolio of web development work.
+It is used by index.html for my color generator web page.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+body {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+
+header {
+    font-size: 28pt;
+}
+
+main {
+    font-size: 24pt;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20pt;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box1, #box2, #box3, #box4 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+#rainbow {
+    font-size: 36pt;
+    color: white;
+    background-color: pink
+}
+
+.hidden {
+    display: none;
+}
+
+#generate, #enter-color {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#R {
+    color: red;
+}
+
+#O {
+    color: orange;
+}
+
+#Y {
+    color: yellow;
+}
+
+#G {
+    color: green;
+}
+
+#B {
+    color: blue;
+}
+
+#I {
+    color: indigo;
+}
+
+#V {
+    color: violet;
+}

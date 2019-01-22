@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+ Name: Mariella Gauvreau
+ Date: November 14, 2018
+ Section: CSE 154 AB
+ This is the index.html page for my portfolio of web development work. It is a page that displays
+ similar colors based on a color selected from a dropdow menu by a user.
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Color Generator</title>
+        <link rel="stylesheet" href="index.css" />
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to the Color Generator!</h1>
+        </header>
+        <main>
+            <h2 id="roygbiv" class="colors">
+                <span id="R">R</span>
+                <span id="O">O</span>
+                <span id="Y">Y</span>
+                <span id="G">G</span>
+                <span id=".">.</span>
+                <span id="B">B</span>
+                <span id="I">I</span>
+                <span id="V">V</span>
+            </h2>
+            <span id="intro">Ready to learn about colors!?</span>
+            <select id="learn">
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+            </select>
+            <span id="rainbow" class="hidden"></span>
+            <fieldset id="dropdown" class="colors hidden">
+                <legend>Select a color</legend>
+                <select id="colorDropdown">
+                        <option value="red">red</option>
+                        <option value="orange">orange</option>
+                        <option value="yellow">yellow</option>
+                        <option value="green">green</option>
+                        <option value="blue">blue</option>
+                        <option value="indigo">indigo</option>
+                        <option value="violet">violet</option>
+                </select>
+            </fieldset>
+            <span id="similar" class="hidden"></span>
+            <button class="colors" id="generate">Generate</button>
+            <div id="mainbox" class="box hidden">
+                <div id="box1"></div>
+                <div id="box2"></div>
+                <div id="box3"></div>
+                <div id="box4"></div>
+            </div>
+            <button class="colors hidden" id="exploreColors">Explore similar colors</button>
+        </main>
+        <footer>
+            <p>Copyright &copy; Mariella Gauvreau 2018</p>
+        </footer>
+    </body>
+</html>

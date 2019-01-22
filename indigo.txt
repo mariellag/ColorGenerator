@@ -1,0 +1,4 @@
+Purple: #800080
+Slateblue: #6a5acd
+Darkslateblue: #483D8B
+Mediumslateblue: #7B68EE
