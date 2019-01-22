@@ -1,0 +1,4 @@
+Salmon: #FA8072
+Firebrick: #B22222
+Lightsalmon: #FFA07A
+Indianred: #CD5C5C

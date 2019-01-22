@@ -1,0 +1,4 @@
+Coral: #FF7F50
+Tomato: #FF6347
+Orangered: #FF4500
+Darkorange: #FF8C00

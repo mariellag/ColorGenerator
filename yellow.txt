@@ -1,0 +1,4 @@
+Gold: #FFD700
+Lemonchiffon: #FFFACD
+Khaki: #F0E68C
+Lightgoldenrodyellow: #FAFAD2

@@ -1,0 +1,4 @@
+Thistle: #D8BFD8
+Orchid: #DA70D6
+Mediumorchid: #BA55D3
+Darkviolet: #9400D3
